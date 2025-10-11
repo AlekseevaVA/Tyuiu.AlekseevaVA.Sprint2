@@ -10,18 +10,18 @@ namespace Tyuiu.AlekseevaVA.Sprint2.Task6.V7.Lib
 
             switch (monthNumber)
             {
-                case 0: return "Январь";
-                case 1: return "Февраль";
-                case 2: return "Март";
-                case 3: return "Апрель";
-                case 4: return "Май";
-                case 5: return "Июнь";
-                case 6: return "Июль";
-                case 7: return "Август";
-                case 8: return "Сентябрь";
-                case 9: return "Октябрь";
-                case 10: return "Ноябрь";
-                case 11: return "Декабрь";
+                case 0: return "январь";
+                case 1: return "февраль";
+                case 2: return "март";
+                case 3: return "апрель";
+                case 4: return "май";
+                case 5: return "июнь";
+                case 6: return "июль";
+                case 7: return "август";
+                case 8: return "сентябрь";
+                case 9: return "октябрь";
+                case 10: return "ноябрь";
+                case 11: return "декабрь";
                 default: throw new ArgumentException("Некорректный номер месяца");
             }
         }
